@@ -1,0 +1,49 @@
+:root { font-family: Bahnschrift, "Segoe UI", sans-serif; color: #343b36; background: #f5f5f2; font-synthesis: none; }
+* { box-sizing: border-box; }
+html, body, #app { width: 100%; height: 100%; margin: 0; }
+body { overflow: hidden; }
+[hidden] { display: none !important; }
+button, summary { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; font-size: 13px; cursor: pointer; color: inherit; border: 0; border-radius: 7px; background: transparent; min-height: 36px; padding: 0 13px; white-space: nowrap; }
+button:hover { background: #e8eae4; }
+button:focus-visible, summary:focus-visible, canvas:focus-visible { outline: 2px solid #527564; outline-offset: 3px; }
+button[aria-pressed="true"] { background: #e5e9e2; color: #253e30; }
+#viewport, #plan-view { position: absolute; inset: 0; }
+#viewport canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+#plan-view { background: white; padding: 55px 12px 30px; }
+.toolbar { position: absolute; top: 20px; left: 20px; right: 20px; display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; pointer-events: none; }
+.switch, .actions { display: flex; gap: 3px; padding: 4px; border: 1px solid #e1e3dd; border-radius: 11px; background: #fffffff2; box-shadow: 0 3px 15px #27372b06; pointer-events: auto; }
+.switch button[aria-pressed="true"] { background: #343e36; color: white; }
+.notes { position: absolute; bottom: 20px; left: 24px; width: min(336px, calc(100vw - 48px)); font-size: 12px; z-index: 2; }
+.notes summary { color: #6b746b; cursor: pointer; padding: 8px 0; width: fit-content; }
+.notes[open] { background: #fffffff7; border: 1px solid #e1e3dd; border-radius: 12px; box-shadow: 0 5px 25px #2835250a; padding: 6px 16px 14px; }
+.notes[open] summary { color: #343e36; font-weight: 600; }
+.notes-body { max-height: min(65vh, 420px); overflow: auto; }
+.notes dl { margin: 9px 0 17px; }
+.notes dl div { display: flex; justify-content: space-between; gap: 16px; padding: 7px 0; border-bottom: 1px solid #edefe9; }
+.notes dd { margin: 0; font-variant-numeric: tabular-nums; }
+.notes p { line-height: 1.6; margin: 12px 0 0; }
+.subtle { color: #747c74; }
+.hint { position: absolute; bottom: 24px; right: 24px; margin: 0; color: #788075; font-size: 11px; pointer-events: none; }
+.error { position: absolute; inset: 40% 20% auto; margin: 0; padding: 20px; background: white; border: 1px solid #ddd; border-radius: 12px; font-size: 14px; line-height: 1.6; }
+#plan { display: block; width: 100%; height: 100%; }
+#plan .wall { fill: none; stroke: #111; stroke-width: var(--wall-width); stroke-linecap: square; }
+#plan .furniture { fill: #f1f1f1; stroke: #555; stroke-width: 2; }
+#plan .stair { fill: none; stroke: #111; stroke-width: 2; }
+#plan .step { fill: none; stroke: #111; stroke-width: 1; }
+#plan .window { fill: none; stroke: #111; stroke-width: 1.5; }
+#plan .level-change { fill: none; stroke: #777; stroke-width: 1.25; stroke-dasharray: 5 4; }
+#plan .level-direction { fill: none; stroke: #555; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; }
+#plan .dimension { fill: none; stroke: #111; stroke-width: .85; }
+#plan text { fill: #111; font: 500 11px Bahnschrift, "Segoe UI", Arial, sans-serif; font-variant-numeric: tabular-nums; letter-spacing: .15px; text-anchor: middle; dominant-baseline: middle; }
+#plan .dimension-text { paint-order: stroke; stroke: #fff; stroke-width: 5; }
+#plan .note { fill: #555; font-size: 10px; font-weight: 400; text-anchor: start; }
+#plan .level-label { fill: #555; font-size: 10px; }
+@media (max-width: 620px) {
+  .toolbar { top: 12px; left: 12px; right: 12px; flex-wrap: wrap; }
+  .actions { margin-left: auto; }
+  button { min-height: 40px; padding: 0 10px; font-size: 12px; }
+  .notes { bottom: 12px; left: 16px; }
+  .hint { display: none; }
+  #plan-view { padding: 55px 0 45px; }
+}

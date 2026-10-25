@@ -1,0 +1,5 @@
+# Variante de iluminación morada
+
+Herramienta integrada, edición de negro-luz-blanca.png.
+
+Edit ONLY the ambient LED COLOR in this exact architectural interior photo. Preserve every physical object, camera, geometry, matte BLACK walls, dark floor, desk, divider, stairs, white drawer, white peripherals, silver MacBook, chair and original monochrome screen graphics IDENTICALLY. Change concealed lighting under floating shelf, below aperture sill and along lower wall/skirting to rich violet-purple RGB light, with realistic restrained purple bounce on nearby surfaces. Keep monitor task light NEUTRAL WHITE so keyboard and white desk mat still look white; keep stair tread lights WHITE, upper background unchanged. Deep black remains true black rather than painting walls purple. Balance exposure so white and silver remain legible and the room is not flooded in flat saturated purple. This image demonstrates the EXACT SAME black/white design with different controllable lighting only. Photorealistic, no text, no watermark.

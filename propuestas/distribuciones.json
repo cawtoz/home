@@ -1,0 +1,76 @@
+[
+  {
+    "id": "a",
+    "title": "A · Reutilizar y despejar",
+    "items": {
+      "bed": {
+        "x": 0.049999999999999996,
+        "z": 0.1,
+        "width": 2,
+        "depth": 1.4,
+        "floor": -0.1,
+        "height": 0.45
+      },
+      "closet": {
+        "x": 2.875,
+        "z": 1.0583333333333336,
+        "width": 1.2,
+        "depth": 0.6,
+        "floor": -0.1,
+        "height": 1.4
+      },
+      "setup": {
+        "x": 5.091666666666668,
+        "z": 1.3283333333333336,
+        "width": 0.8,
+        "depth": 1.23,
+        "floor": 0,
+        "height": 0.79
+      }
+    },
+    "chair": {
+      "x": 4.51,
+      "z": 1.69,
+      "width": 0.52,
+      "depth": 0.52
+    },
+    "description": "Retirar la mesa superior de 2,00 × 0,48 m. Mantener clóset y setup. Desplazar la cama hacia arriba 0,20 m. Silla y acabados ilustrativos."
+  },
+  {
+    "id": "b",
+    "title": "B · Trabajo en la pared superior",
+    "items": {
+      "bed": {
+        "x": 0.049999999999999996,
+        "z": 0.1,
+        "width": 2,
+        "depth": 1.4,
+        "floor": -0.1,
+        "height": 0.45
+      },
+      "closet": {
+        "x": 2.875,
+        "z": 1.0583333333333336,
+        "width": 1.2,
+        "depth": 0.6,
+        "floor": -0.1,
+        "height": 1.4
+      },
+      "setup": {
+        "x": 4.25,
+        "z": 0.041666666666666664,
+        "width": 1.23,
+        "depth": 0.8,
+        "floor": 0,
+        "height": 0.79
+      }
+    },
+    "chair": {
+      "x": 4.9,
+      "z": 0.94,
+      "width": 0.52,
+      "depth": 0.52
+    },
+    "description": "Retirar la mesa superior de 2,00 × 0,48 m. Girar el setup 90° y llevarlo a la pared superior. Mantener clóset. Desplazar la cama hacia arriba 0,20 m. Silla y acabados ilustrativos."
+  }
+]

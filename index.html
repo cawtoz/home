@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f5f2" />
+    <title>Mi espacio · Plano y modelo 3D</title>
+  </head>
+  <body>
+    <main id="app">
+      <div id="viewport" aria-label="Modelo 3D de la casa. Usa el ratón para girar y acercar."></div>
+      <section id="plan-view" aria-label="Plano 2D con medidas" hidden>
+        <svg id="plan" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Plano de la casa con todas las medidas en metros"></svg>
+      </section>
+      <nav class="toolbar" aria-label="Controles de la vista">
+        <div class="switch" aria-label="Tipo de vista">
+          <button id="view-3d" aria-pressed="true">3D</button>
+          <button id="view-2d" aria-pressed="false">Plano 2D</button>
+        </div>
+        <div id="model-controls" class="actions">
+          <button id="walls" aria-pressed="false" title="Mostrar las paredes altas hasta el techo de 2,30 m">Muros completos</button>
+          <button id="furniture" aria-pressed="true">Muebles</button>
+          <button id="reset" title="Volver a la posición inicial">Restablecer vista</button>
+        </div>
+      </nav>
+      <details id="model-notes" class="notes">
+        <summary>Datos del modelo</summary>
+        <div class="notes-body">
+          <dl>
+            <div><dt>Largo total</dt><dd id="length-value"></dd></div>
+            <div><dt>Altura al techo</dt><dd id="height-value"></dd></div>
+            <div><dt>Desnivel del acceso</dt><dd id="access-value"></dd></div>
+            <div><dt>Lado del clóset</dt><dd id="drop-value"></dd></div>
+            <div><dt>Altura del setup</dt><dd id="setup-height-value"></dd></div>
+            <div><dt>Altura del clóset</dt><dd id="closet-height-value"></dd></div>
+          </dl>
+          <p>La escalera sube hacia la pared inferior del plano. Arranca con el peldaño más bajo cerca de la mesa.</p>
+          <p>Por defecto, las paredes se muestran cortadas al nivel de la base de la casa: 0,90 m. «Muros completos» muestra las paredes altas hasta el techo de 2,30 m. Los tres bordes de la base exterior permanecen a 0,90 m.</p>
+          <p class="subtle">La superficie exterior incluye el frente de las ventanas y muestra la base de la casa a ese mismo nivel. Su extensión es ilustrativa y queda fuera del área de tu zona.</p>
+          <p class="subtle">Las alturas de la cama, la mesa superior y las ventanas son provisionales. Los dos anchos de ventana se reparten por igual. El grosor de muro es gráfico, pendiente de medir.</p>
+          <p class="subtle">Las ventanas empiezan 0,18 m por encima de la base de la casa. Se ven al activar «Muros completos», porque quedan por encima del corte de la vista inicial.</p>
+          <p class="subtle">El techo se toma a 2,30 m sobre el piso de la escalera; falta confirmar esa referencia. El piso del lado del clóset está 0,10 m más bajo.</p>
+        </div>
+      </details>
+      <p id="gesture-hint" class="hint">Arrastra para girar · rueda para acercar · clic derecho para desplazar</p>
+      <p id="error" class="error" role="alert" hidden></p>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

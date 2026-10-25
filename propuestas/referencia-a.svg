@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="780" viewBox="0 0 1320 780"><rect width="1320" height="780" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222;text-anchor:middle} .wall{fill:none;stroke:#272c29;stroke-width:12.916666666666666;stroke-linejoin:miter}</style>
+<text x="660" y="50" font-size="24">A · Reutilizar y despejar</text>
+<polygon points="108.8,446.2 539.7,477.975 539.7,400.01 751.7399999999999,400.01 751.7399999999999,539.51 1160.01,539.51 1160.01,670.95 108.8,670.95" fill="#e0e1da"/>
+<polygon points="115,130 758.25,130 758.25,393.5 533.5,393.5 533.5,471 115,440" fill="#fafaf7"/>
+<polygon points="758.25,130 1153.5,130 1153.5,533 758.25,533" fill="#fff"/>
+<path d="M115,130 L1153.5,130" fill="none" stroke="#272c29" stroke-width="12.916666666666666" />
+<path d="M1153.5,130 L1153.5,533" fill="none" stroke="#272c29" stroke-width="12.916666666666666" />
+<path d="M1153.5,533 L758.25,533" fill="none" stroke="#272c29" stroke-width="12.916666666666666" />
+<path d="M758.25,533 L758.25,393.5" fill="none" stroke="#272c29" stroke-width="12.916666666666666" />
+<path d="M758.25,393.5 L533.5,393.5" fill="none" stroke="#272c29" stroke-width="12.916666666666666" />
+<path d="M533.5,316 L533.5,471" fill="none" stroke="#272c29" stroke-width="12.916666666666666" />
+<path d="M115,130 L115,440" fill="none" stroke="#272c29" stroke-width="12.916666666666666" />
+<path d="M115,440 L144.3695353687501,442.17552113842595" fill="none" stroke="#272c29" stroke-width="12.916666666666666" />
+<path d="M144.3695353687501,442.17552113842595 L288.69740455361836,452.8664744113791" fill="none" stroke="#55838c" stroke-width="3" />
+<path d="M288.69740455361836,452.8664744113791 L322.7042349805921,455.38549888745126" fill="none" stroke="#272c29" stroke-width="12.916666666666666" />
+<path d="M322.7042349805921,455.38549888745126 L467.03210416546045,466.0764521604045" fill="none" stroke="#55838c" stroke-width="3" />
+<path d="M467.03210416546045,466.0764521604045 L533.5,471" fill="none" stroke="#272c29" stroke-width="12.916666666666666" />
+<path d="M758.25,130 L758.25,393.5" fill="none" stroke="#8c928b" stroke-width="1.5" stroke-dasharray="6 5"/>
+<path d="M1052.75,269.5 L1145.75,269.5" fill="none" stroke="#272c29" stroke-width="2" />
+<path d="M1052.75,313.41666666666663 L1145.75,313.41666666666663" fill="none" stroke="#272c29" stroke-width="2" />
+<path d="M1052.75,357.33333333333337 L1145.75,357.33333333333337" fill="none" stroke="#272c29" stroke-width="2" />
+<path d="M1052.75,401.25 L1145.75,401.25" fill="none" stroke="#272c29" stroke-width="2" />
+<path d="M1052.75,445.16666666666663 L1145.75,445.16666666666663" fill="none" stroke="#272c29" stroke-width="2" />
+<path d="M1052.75,489.08333333333337 L1145.75,489.08333333333337" fill="none" stroke="#272c29" stroke-width="2" />
+<path d="M1052.75,533 L1145.75,533" fill="none" stroke="#272c29" stroke-width="2" />
+<path d="M1052.75,269.5 L1052.75,533" fill="none" stroke="#272c29" stroke-width="2" />
+<path d="M1099.25,292.75 L1099.25,508.2" fill="none" stroke="#5a6e60" stroke-width="2" />
+<path d="M1086.85,491.15000000000003 L1099.25,508.2" fill="none" stroke="#5a6e60" stroke-width="2" />
+<path d="M1111.65,491.15000000000003 L1099.25,508.2" fill="none" stroke="#5a6e60" stroke-width="2" />
+<rect x="122.75" y="145.5" width="310" height="217" fill="#d4d8d0" stroke="#697265" stroke-width="2"/>
+<text x="277.75" y="254" font-size="12">Cama · 2,00 × 1,40 m</text>
+<rect x="560.625" y="294.04166666666674" width="186" height="93" fill="#d4d8d0" stroke="#697265" stroke-width="2"/>
+<text x="653.625" y="340.54166666666674" font-size="12">Clóset · 1,20 × 0,60 m</text>
+<rect x="904.2083333333335" y="335.8916666666667" width="124" height="190.65" fill="#d4d8d0" stroke="#697265" stroke-width="2"/>
+<text x="966.2083333333336" y="431.2166666666667" font-size="12">Setup · 1,23 × 0,80 m</text>
+<rect x="814.05" y="391.95" width="80.60000000000001" height="80.60000000000001" rx="13" fill="#edf0eb" stroke="#8b9488" stroke-dasharray="5 4"/><text x="854.3499999999999" y="432.25" font-size="11">Silla</text>
+<text x="634.25" y="105" font-size="17">6,70 m · estructura y medidas existentes</text>
+<text x="316.5" y="618.25" font-size="15">BASE DE LA CASA +0,90 m</text>
+<text x="660" y="720" font-size="15">Piso clóset: −0,10 m · Piso escalera: 0,00 m · Ventanas: +0,18 m sobre la base exterior</text>
+<text x="660" y="752" font-size="13">Referencia de distribución propuesta · muebles conservan sus medidas · mesa superior retirada</text></svg>
